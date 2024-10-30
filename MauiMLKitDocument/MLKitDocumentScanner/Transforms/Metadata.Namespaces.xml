@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+	<attr 
+		path="/api/package[@name='com.google.firebase.encoders']"
+		name="managedName"
+		>
+		Kalyan.Firebase.Encoders
+	</attr>
+	<attr 
+		path="/api/package[@name='com.google.firebase.encoders.config']"
+		name="managedName"
+		>
+		Kalyan.Firebase.Encoders.Config
+	</attr>
+	<attr 
+		path="/api/package[@name='com.google.firebase.encoders.json']"
+		name="managedName"
+		>
+		Kalyan.Firebase.Encoders.Json
+	</attr>
+</metadata>
