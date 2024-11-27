@@ -1,21 +1,54 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<attr 
-		path="/api/package[@name='com.google.firebase.encoders']"
-		name="managedName"
-		>
-		Kalyan.Firebase.Encoders
-	</attr>
-	<attr 
-		path="/api/package[@name='com.google.firebase.encoders.config']"
-		name="managedName"
-		>
-		Kalyan.Firebase.Encoders.Config
-	</attr>
-	<attr 
-		path="/api/package[@name='com.google.firebase.encoders.json']"
-		name="managedName"
-		>
-		Kalyan.Firebase.Encoders.Json
-	</attr>
+
+  <attr
+      path="/api/package[@name='com.google.android.gms.internal.mlkit_common']"
+      name="managedName"
+      >
+      Android.Gms.Internal.MLKit.Common
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common']"
+      name="managedName"
+        >
+      Xamarin.Google.MLKit.Common
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common.internal']"
+      name="managedName"
+        >
+    Xamarin.Google.MLKit.Common.Internal
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common.internal.model']"
+      name="managedName"
+        >
+    Xamarin.Google.MLKit.Common.Internal.Model
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common.model']"
+      name="managedName"
+        >
+    Xamarin.Google.MLKit.Common.Model
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common.sdkinternal']"
+      name="managedName"
+        >
+    Xamarin.Google.MLKit.Common.SDKInternal
+  </attr>
+  <attr
+      path="/api/package[@name='com.google.mlkit.common.sdkinternal.model']"
+      name="managedName"
+        >
+    Xamarin.Google.MLKit.Common.SDKInternal.Model
+  </attr>
+  
+  
+  
+  
+  
+  
+  
+
 </metadata>

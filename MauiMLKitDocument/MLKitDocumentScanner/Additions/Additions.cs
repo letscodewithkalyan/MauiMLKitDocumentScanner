@@ -1,81 +1,47 @@
 ﻿using System;
-using Android.Views;
-using Android.Widget;
-using Android.Graphics;
-using Firebase.Encoders;
-using Fire = Firebase;
-namespace Com.Google.Firebase.Encoders
+using Android.Runtime;
+
+namespace Xamarin.Google.MLKit.Common.Internal
 {
-    public class ObjectEncoder : Java.Lang.Object, Fire.Encoders.IObjectEncoderContext
+    // Metadata.xml XPath class reference: path="/api/package[@name='com.google.mlkit.common.internal']/class[@name='CommonComponentRegistrar']"
+    // [global::Android.Runtime.Register ("com/google/mlkit/common/internal/CommonComponentRegistrar", DoNotGenerateAcw=true)]
+    public partial class CommonComponentRegistrar : global::Java.Lang.Object, global::Firebase.Components.IComponentRegistrar
     {
-        public IObjectEncoderContext Add(FieldDescriptor p0, bool p1)
+        public unsafe global::System.Collections.Generic.IList<global::Firebase.Components.Component> Components
         {
-            throw new NotImplementedException();
+            // Metadata.xml XPath method reference: path="/api/package[@name='com.google.mlkit.common.internal']/class[@name='CommonComponentRegistrar']/method[@name='getComponents' and count(parameter)=0]"
+            // [Register ("getComponents", "()Ljava/util/List;", "")]
+            get
+            {
+                const string __id = "getComponents.()Ljava/util/List;";
+                try
+                {
+                    var __rm = _members.InstanceMethods.InvokeNonvirtualObjectMethod(__id, this, null);
+                    return (System.Collections.Generic.IList<Firebase.Components.Component>)global::Android.Runtime.JavaList.FromJniHandle(__rm.Handle, JniHandleOwnership.TransferLocalRef);
+                }
+                finally
+                {
+                }
+            }
         }
+    }
+}
 
-        public IObjectEncoderContext Add(FieldDescriptor p0, double p1)
+namespace Com.Google.Android.Datatransport.Runtime.Dagger.Internal
+{
+    public sealed partial class ProviderOfLazy : Java.Lang.Object, global::JavaX.Inject.IProvider
+    {
+        public Java.Lang.Object Get()
         {
-            throw new NotImplementedException();
+            return null;
         }
+    }
 
-        public IObjectEncoderContext Add(FieldDescriptor p0, float p1)
+    public sealed partial class SetFactory : Java.Lang.Object, global::JavaX.Inject.IProvider
+    {
+        public Java.Lang.Object Get()
         {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(FieldDescriptor p0, int p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(FieldDescriptor p0, Java.Lang.Object? p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(FieldDescriptor p0, long p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(string p0, bool p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(string p0, double p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(string p0, int p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(string p0, Java.Lang.Object? p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Add(string p0, long p1)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Inline(Java.Lang.Object? p0)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Nested(FieldDescriptor p0)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IObjectEncoderContext Nested(string p0)
-        {
-            throw new NotImplementedException();
+            return null;
         }
     }
 }

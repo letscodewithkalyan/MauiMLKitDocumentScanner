@@ -19,21 +19,16 @@
     <None Include="Additions\AboutAdditions.txt" />
   </ItemGroup>
   <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Activity" Version="1.8.1.1" />
     <PackageReference Include="Xamarin.Firebase.Components" Version="117.1.5.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Base" Version="118.2.0.5" />
     <PackageReference Include="Xamarin.GooglePlayServices.Basement" Version="118.2.0.5" />
     <PackageReference Include="Xamarin.GooglePlayServices.Tasks" Version="118.0.2.6" />
     <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportApi" Version="3.0.0.10" />
-
-    <PackageReference Include="Xamarin.Google.MLKit.Common" Version="118.9.0.3" />
-    <PackageReference Include="Xamarin.Firebase.Encoders.JSON" Version="118.0.1.10" />
-    <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportBackendCct" Version="3.1.9.4" />
-    <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportRuntime" Version="3.1.9.4" />
-  </ItemGroup>
-  <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml" />
-    <TransformFile Include="Transforms\EnumFields.xml" />
-    <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
 </Project>
