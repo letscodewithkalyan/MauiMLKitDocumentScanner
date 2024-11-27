@@ -51,7 +51,6 @@ namespace MauiMLKitDocument.Platforms.Android
 
         public void OnFailure(Java.Lang.Exception e)
         {
-            throw new NotImplementedException();
         }
 
         public void OnActivityResult(Java.Lang.Object? result)
